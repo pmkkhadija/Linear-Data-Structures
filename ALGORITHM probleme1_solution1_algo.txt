@@ -1,0 +1,68 @@
+ALGORITHM probleme1_solution1_
+VAR
+    tab :  set1 ARRAY_OF integer[5];
+    j : INTEGER
+    tab : set2 : ARRAY_OF integer[5];
+    i : INTEGER
+    tab distinct_elements : ARRAY_OF integer[0];
+    z: INTEGER
+    sum :INTEGER:=0
+BEGIN
+    set_instructions
+    WHILE (j=i) DO
+        tab(j):=tab(z)
+    END_WHILE
+    WHILE (i=j) DO
+        tab(i):=tab(z)
+    END_WHILE
+    sum := sum + z
+    write(sum)
+END
+ALGORITHM probleme1_solution2_
+var
+    htab : HASH_TABLE<STRING,INTEGER>
+    i,count : INTEGER;
+    htab : HASH_TABLE<STRING,INTEGER>
+    j,count : INTEGER;
+    
+BEGIN
+    
+    htab.insert(key,i)
+    htab.insert(key,j)
+    if (i=j) then
+    sum := count + 1
+END
+ALGORITHM probleme2_solution1_  
+  VAR
+    tab :  set1 ARRAY_OF integer[5];
+    j : INTEGER
+    tab : set2 : ARRAY_OF integer[5];
+    i : INTEGER
+    tab distinct_elements : ARRAY_OF integer[0];
+    z: INTEGER
+    sum :INTEGER:=0
+BEGIN
+    set_instructions
+    WHILE (j<>i) DO
+        tab(j):=tab(z)
+    END_WHILE
+    WHILE (i<>j) DO
+        tab(i):=tab(z)
+    END_WHIL + z
+    write(sum)
+END
+ALGORITHM  probleme2_solution2_
+var
+    htab : HASH_TABLE<STRING,INTEGER>
+    i,count : INTEGER;
+    htab : HASH_TABLE<STRING,INTEGER>
+    j,count : INTEGER;
+    
+BEGIN
+    
+    htab.insert(key,i)
+    htab.insert(key,j)
+    if (i<>j) then
+    sum := count + 1
+END
+
